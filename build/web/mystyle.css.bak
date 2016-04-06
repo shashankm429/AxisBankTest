@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+#menu
+{
+ margin-top:70;
+ padding: 0;
+}
+
+#menu ul
+{
+margin:0;
+padding:0;
+line-height:30px;
+}
+#menu li
+{
+margin:0;
+padding:0;
+list-style:none;
+float:left;
+position:relative;
+background: #000080;
+}
+
+#menu ul li a
+{
+  text-align:center;
+  font-family: "Comic Sans MS" , cursive;
+  text-decoration: none;
+  height:50px;
+  width:170px;
+  display:block;
+  color: solid white;
+  color: #FFF;
+  border: 1px solid #000;
+}
+
+#menu ul ul 
+{
+  position:absolute;
+  visibility:hidden;
+  top:30px;
+
+}
+
+#menu ul li:hover ul
+{
+   visibility:visible;
+}
+
+/*************************************/
+#menu li:hover
+{
+background: #00BFFF;
+display:block;
+}
+#menu ul li:hover ul li a:hover {
+background:#F5FFFA;
+color:#000;
+}
+
+@-webkit-keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+
+@-moz-keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+@-o-keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+@keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+
+#box1 
+{
+background-color:#fff;
+-webkit-animation: spotlightBG 5s infinite alternate;
+-moz-animation: spotlightBG 5s infinite alternate;
+-o-animation: spotlightBG 5s infinite alternate;
+animation: spotlightBG 5s infinite alternate;
+}
+
+@-webkit-keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+@-moz-keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+@-o-keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+@keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+ #box1 p 
+ {
+ color:#d6d6d6;
+ -webkit-animation: text 2s infinite alternate;
+ -moz-animation: text 2s infinite alternate;
+ -o-animation: text 2s infinite alternate;
+ animation: text 2s infinite alternate;
+ }

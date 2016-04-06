@@ -1,0 +1,309 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>LogIn</title>
+<!--- <link href="dropDown.css" rel="stylesheet" type="text/css"/> -->
+<style type="text/css">
+
+
+	        
+#box
+{
+    background-color: #d0e4fe;
+    width: 1000px;
+	height: 800px;
+    padding: 25px;
+    border: 1px lightgrey;
+    margin-left: 130px;
+	margin-top: -30px;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+}
+#Menu
+  {
+    margin:0;
+	padding:0;
+	list-style: none;
+  }
+
+  #Menu ul
+  {
+    margin-top: 0px;
+	padding: 0;
+	line-height: 30px;
+}
+#Menu li 
+	{
+	  margin: 0;
+	  padding: 0;
+	  list-style: none;
+	  float: left;
+	  position: relative;
+	  background: #000080;
+	}
+	#Menu ul li a
+	{ 
+	  text-align: center;
+	  font-family: "Comic Sans MS" , cursive;
+	  text-decoration: none;
+	  height: 30px;
+	  width: 180;
+	  display: block;
+	  color:#FFFFFF;
+	  background: #000080;
+	  border: 1px solid black;
+	}
+  
+ #Menu li:hover
+	{ 
+      
+	   background-color: #09F;
+
+	} 
+
+	#Menu a:hover
+	{
+	  color: #000;
+	}
+
+
+#box1
+ {
+   background-color: #FFFFFF;
+   width: 990px;
+   height:30px;
+ 
+   border:2px black;
+   margin-top:-30px;
+   box-shadow: 0 0 0.5px 0.5px rgba(5, 5, 5, 0.8);
+ }
+ @-webkit-keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+
+@-moz-keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+@-o-keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+@keyframes spotlightBG {
+0% { background-color: #00FFFF; }
+50% { background-color: #8FBC8F; }
+100% { background-color: #DCDCDC; }
+}
+
+#box1 
+{
+background-color:#fff;
+-webkit-animation: spotlightBG 2s infinite alternate;
+-moz-animation: spotlightBG 2s infinite alternate;
+-o-animation: spotlightBG 2s infinite alternate;
+animation: spotlightBG 2s infinite alternate;
+}
+
+@-webkit-keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+@-moz-keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+@-o-keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+@keyframes text
+{
+0% {color:black; }
+50% {color: red; }
+100% {color: blue; }
+}
+ #box1 p 
+ {
+ color:#d6d6d6;
+ -webkit-animation: text 2s infinite alternate;
+ -moz-animation: text 2s infinite alternate;
+ -o-animation: text 2s infinite alternate;
+ animation: text 2s infinite alternate;
+ }
+
+#pp
+  {
+  margin-top: 90px;
+
+  }
+
+
+body {
+ background-color: #f4f4f4; 
+
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+
+width: 300px;
+margin-top:40px;
+margin-left:40px;
+}
+#login {
+
+width: 300px;
+}
+#signup {
+font-size:14px;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #5a5656;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: #5a5656;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #f4f4f4;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+
+
+#loginimage
+{
+  margin-left: 450px;
+  margin-top: -320px;
+}
+
+#warning
+{
+margin-top:20px;
+margin-left:2px;
+}
+
+#certify
+{
+margin-top:-330px;
+margin-left:700px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="box">
+
+<img src = "C:\Projects\Online Banking\bank.jpg"/>
+     <div id="Menu">
+		   <ul>
+		      <li> <a href="#">Home</a></li>
+			  <li> <a href="#">Products & Services </a></li>
+			  <li> <a href="#">How Do I</a></li>
+			  
+		   </ul>
+		</div> <!--- end of menu --->
+   
+     <div id="box1">
+		      <div id="pp">
+              <p align="left"> <b> Welcome to revamped version of Online Axis Bank.
+			 If your page appears hazy , please refresh this page by pressing ctrl + F5. </b> </p>
+              </div> <!----pp ends --->
+		   </div> <!--- box1 ends --->
+	
+
+
+<div id="login">
+
+<form action="javascript:void(0);" method="get">
+<fieldset>
+<p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<div id="signup">
+
+<p><a href="#"> <b> Forgot Password? </b> </a></p>
+<p><a href="#"><b> Not a member? Sign Up now and become a member! </b> </a></p>
+</div>
+<p><input type="submit" value="Login"></p>
+</fieldset>
+</form>
+
+</div> <!-- end login -->
+
+
+  <div id="loginimage">
+  <img src="C:\Projects\Online Banking\login.png">
+  </div> <!-- end of login image --->
+
+<div id="warning">
+  <img src="C:\Projects\Online Banking\warning.png">
+  </div> <!-- end of login image --->
+
+  <div id="certify">
+  <img src="C:\Projects\Online Banking\certify.png">
+  </div> <!-- end of login image --->
+
+</div> <!--- end main box -->
+</body>
+</html>
